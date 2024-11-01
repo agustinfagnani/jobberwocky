@@ -1,0 +1,53 @@
+# Python files
+*.py[cod]
+__pycache__/
+*.so
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.env/
+
+# Local environment config files
+*.env
+*.local
+
+# Dependency management files
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Distribution directories
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test-related files
+.coverage
+.tox/
+.pytest_cache/
+.hypothesis/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# IDE configurations
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Automatically generated files
+*.pot
+*.mo
+*.pyc
